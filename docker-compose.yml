@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nginx:
+    image: manasadevi09/nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx_data:/var/opt/nginx
